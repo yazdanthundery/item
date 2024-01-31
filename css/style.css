@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+}
+.backg{
+    height: 100vh;
+    width: 100%;
+}
+.sec{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(225, 230, 235);
+}
+.color-btn{
+    width: 30px;
+    height: 30px;
+
+}
+.sec:hover{
+    box-shadow: 8px 8px 4px lightblue;
+    transition: 0.9s;
+    transform:scale(1.05,1.05)
+}
